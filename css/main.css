@@ -1,0 +1,26 @@
+.background {
+    background-color: aliceblue;
+}
+.container {
+    background-color: slategray;
+    color: black;
+    max-width: 86%;
+    width: auto;
+    margin: auto;
+}
+.h1 {
+    text-align: center;
+}
+.h2 {
+    color: black;
+}
+.certifications {
+    position: relative;
+    left: 10%;
+}
+.cert-image {
+    border: ridge 3px;
+    border-color: black;
+    margin-left: 2px;
+    margin-right: 2px;
+}
