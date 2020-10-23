@@ -1,5 +1,5 @@
 .background {
-    background-image: repeating-linear-gradient(-45deg, transparent 2px, transparent 7px, #E3F7D4 15px, #E3F7D4 8px);
+    background-image: repeating-linear-gradient(-45deg, white 2px, white 7px, #E3F7D4 15px, #E3F7D4 8px);
 }
 .container {
     padding: 10px;
@@ -24,15 +24,19 @@ h1 {
 h2 {
     text-align: center;
     background-color: #66B032;
+    border: 6px;
+    border-style: solid;
+    border-color: #66B032;
+    border-radius: 3px;
     color: white;   
 }
 h3 {
     text-align: center;
-    color: #66B032;
+    color: #B82214;
 }
 p {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: #340D09;
 }
 .certifications {
@@ -60,9 +64,9 @@ p {
 .navbar {
     border: 8px;
     border-style: solid;
-    border-color: #FE2712;
+    border-color: #B82214;
     border-radius: 10px;
-    background-color: #FE2712;
+    background-color: #B82214;
 }
 .navbar ul {
     display: block;
@@ -84,6 +88,28 @@ p {
 .navbar ul li:hover, .navbar ul li:active, .navbar ul li:focus {
     background-color: white;
     color: #340D09;
+}
+.skills-table {
+    display: block;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 55%;
+}
+.skills-table tr:nth-child(even) {
+    background-color: white;
+}
+.skills-table th {
+    padding: 5px;
+    background-color: #B82214;
+    color: white;
+    text-align: left;
+}
+.skills-table td {
+    color: #340D09;
+    text-align: left;
 }
 #ref-photo {
     display: block;
