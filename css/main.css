@@ -28,10 +28,14 @@ h3 {
     margin-right: auto;
 }
 .cert-image {
-    border: ridge 3px;
+    border: ridge 4px;
     border-color: black;
     margin-left: 2px;
     margin-right: 2px;
+}
+.cert-image:hover, .cert-image:active, .cert-image:focus {
+    border-color: white;
+    background-color: black;
 }
 .navbar {
     border-top: 10px;
@@ -52,18 +56,7 @@ h3 {
     color:  white;
     font-weight: bold;
 }
-.navbar ul li:hover{
-    display: inline;
+.navbar ul li:hover, .navbar ul li:active, .navbar ul li:focus {
+    background-color: white;
     color: black;
-    font-weight: bold;
-}
-.navbar ul li:active{
-    display: inline;
-    color: black;
-    font-weight: bold;
-}
-.navbar ul li:focus{
-    display: inline;
-    color: black;
-    font-weight: bold;
 }
