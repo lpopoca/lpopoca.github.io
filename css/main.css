@@ -9,14 +9,15 @@
     margin: auto;
 }
 .h1 {
-    color: blue;
+    text-align: center;
 }
 .h2 {
-    color: black;
+    text-align: center;    
 }
 .certifications {
     position: relative;
     left: 10%;
+    margin: auto;
 }
 .cert-image {
     border: ridge 3px;
