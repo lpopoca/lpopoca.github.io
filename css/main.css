@@ -1,15 +1,8 @@
-.background {
-    background-image: repeating-linear-gradient(-45deg, white 2px, white 7px, #E3F7D4 15px, #E3F7D4 8px);
-}
 .container {
     padding: 10px;
-    max-width: 90%;
-    margin: 0px auto 0px auto;
+    max-width: 100%;
+    margin: -10px -10px -10px -10px;
     width: auto;
-    border: 2px;
-    border-style: solid;
-    border-radius: 15px;
-    border-color: #340D09;
     background-color: #E3F7D4;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -96,7 +89,7 @@ p {
     overflow-x: auto;
     margin-left: auto;
     margin-right: auto;
-    max-width: 55%;
+    max-width: 50%;
 }
 .skills-table tr:nth-child(even) {
     background-color: white;
