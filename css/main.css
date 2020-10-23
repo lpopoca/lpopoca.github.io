@@ -1,32 +1,45 @@
+.background {
+    background-image: repeating-linear-gradient(-45deg, transparent 2px, transparent 7px, #E3F7D4 15px, #E3F7D4 8px);
+}
 .container {
     padding: 10px;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0px auto 0px auto;
     width: auto;
     border: 2px;
     border-style: solid;
     border-radius: 15px;
-    border-color: black;
-    background-color: #f2f2f2;
+    border-color: #340D09;
+    background-color: #E3F7D4;
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    color: #010101;
+    color: #340D09;
     font-family: sans-serif;
 }
 h1 {
     text-align: center;
+    color: #B82214;
 }
 h2 {
-    text-align: center;   
+    text-align: center;
+    background-color: #66B032;
+    color: white;   
 }
 h3 {
     text-align: center;
+    color: #66B032;
+}
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #340D09;
 }
 .certifications {
-    max-width: 50%;
-    width: 100%;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 .certifications li{
     display: inline;
@@ -36,23 +49,28 @@ h3 {
 }
 .cert-image {
     border: ridge 4px;
-    border-color: black;
+    border-color: #340D09;
     margin-left: 2px;
     margin-right: 2px;
 }
 .cert-image:hover, .cert-image:active, .cert-image:focus {
     border-color: white;
-    background-color: black;
+    background-color: #340D09;
 }
 .navbar {
-    border-top: 10px;
+    border: 8px;
     border-style: solid;
-    border-color: red;
+    border-color: #FE2712;
     border-radius: 10px;
-    background-color: red;
+    background-color: #FE2712;
 }
 .navbar ul {
-    word-spacing: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 350px;
+    word-spacing: 30px;
     text-align: justify;
 }
 .navbar ul a{
@@ -65,5 +83,11 @@ h3 {
 }
 .navbar ul li:hover, .navbar ul li:active, .navbar ul li:focus {
     background-color: white;
-    color: black;
+    color: #340D09;
+}
+#ref-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
