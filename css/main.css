@@ -1,7 +1,7 @@
 .container {
     padding: 10px;
     max-width: 80%;
-    margin: auto;
+    margin: 0px auto 0px auto;
     width: auto;
     border: 2px;
     border-style: solid;
@@ -44,7 +44,26 @@ h3 {
     word-spacing: 20px;
     text-align: justify;
 }
+.navbar ul a{
+    text-decoration: none;
+}
 .navbar ul li{
     display: inline;
     color:  white;
+    font-weight: bold;
+}
+.navbar ul li:hover{
+    display: inline;
+    color: black;
+    font-weight: bold;
+}
+.navbar ul li:active{
+    display: inline;
+    color: black;
+    font-weight: bold;
+}
+.navbar ul li:focus{
+    display: inline;
+    color: black;
+    font-weight: bold;
 }
