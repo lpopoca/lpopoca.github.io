@@ -28,8 +28,9 @@ h3 {
     color: #B82214;
 }
 p {
-    margin-left: 360px;
-    margin-right: 360px;
+    padding-left: 360px;
+    padding-right: 360px;
+    margin: auto;
     color: #340D09;
 }
 .certifications {
